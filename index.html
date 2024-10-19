@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=Loyfyj"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=Loyfyj" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=OQEC4t"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=OQEC4t" type="text/css">
 
   
   
@@ -206,47 +206,66 @@
     </div>
 </section>
 
-<section data-bs-version="5.1" class="form5 cid-uoqas4uuo9" id="contact-form-3-uoqas4uuo9">
-    
-    
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head mb-5">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        <strong>Kontakt mig</strong></h3>
-                    
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Mobirise Form"><input type="hidden" name="email" data-form-email="true" value="bj6Ljd64G+spBuw8drpe+IRRbAgywSIMiEKYwNjQ7jHO7d+8klUxnRoT2pSLCsKPYpjpSzUa4vBoeGWNpDs+dEvifm8lf0bKoas2QcszHqVAlfYB1U4K9VPPWW65oeXF">
-                    <div class="row">
-                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Tak for din mail.</div>
-                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-                            Oops...! some problem!
-                        </div>
-                    </div>
-                    <div class="dragArea row">
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-                            <input type="text" name="name" placeholder="Navn" data-form-field="name" class="form-control" value="" id="name-contact-form-3-uoqas4uuo9">
-                        </div>
-                        <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-contact-form-3-uoqas4uuo9">
-                        </div>
-                        
-                        <div class="col-12 form-group mb-3" data-for="textarea">
-                            <textarea name="textarea" placeholder="Fortæl lidt om dig selv, og hvilken mentorplan du ønsker at tilmelde dig." data-form-field="textarea" class="form-control" id="textarea-contact-form-3-uoqas4uuo9"></textarea>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Send</button></div>
-                    </div>
-                </form>
-            </div>
-        </div>
+<section class="witsec-mailform mbr-section cid-urEIYCx0py" id="witsec-mailform-c" data-rv-view="65">
+
+  
+
+  
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="title col-12 col-lg-8">
+        <h2 class="mbr-section-title align-center pb-3 mbr-fonts-style display-2">Kontakt mig</h2>
+        
+      </div>
     </div>
-</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="media-container-column col-lg-8">
+          <form class="mbr-form" onsubmit="witsecSendMail(this)">
+<input type="hidden" name="disableButton" value="1">
+            <input type="hidden" name="subject" value="Fortæl lidt om dig selv og hvilken mentor plan du kunne tænke dig at høre mere om.">
+            
+            
+
+            <div class="rowflexrev flex-column-reverse">
+              <div class="row">
+                <div class="col-md-12 form-group ws-form-alerts">
+                  <div hidden="hidden" class="alert alert-success col-12 display-7" >Tak for din besked</div>
+                  <div hidden="hidden" class="alert alert-danger col-12 display-7" >Der er opstået en fejl. Prøv igen!</div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Navn</p>
+                  <input type="text" name="name" data-form-field="Name" required="required" class="form-control display-7">
+                </div>
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Email</p>
+                  <input type="email" name="email" data-form-field="Email" required="required" class="form-control display-7">
+                </div>
+                <div class="col-md-4 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Mobil/Telefon</p>
+                  <input type="tel" name="phone" data-form-field="Phone" class="form-control display-7">
+                </div>
+                <div class="col-md-12 form-group">
+                  <p class="mbr-section-labels mbr-fonts-style display-7">Besked</p>
+                  <textarea name="message" data-form-field="Message" required="required" class="form-control display-7"></textarea>
+                </div>
+                
+                
+                
+                <div class="col-md-12 input-group-btn align-center"><button type="submit" class="btn btn-primary btn-form display-4">SEND</button></div>
+              </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section><section><a href="https://mobiri.se"></a><a href="https://mobiri.se"></a></section><script src="assets/witsec-jquery-3.6.0/jquery-3.6.0.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  
   
   
+<script src="assets/witsec-mailform/mailform.js"></script>
 </body>
 </html>
